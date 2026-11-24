@@ -27,6 +27,15 @@ En la barra lateral se configuran las claves y el periodo. El tablero presenta
 la tendencia, el cambio mensual, la variación diaria por año y la distribución
 de las variaciones diarias. Los datos se pueden consultar y descargar como CSV.
 
+## Evidencia de funcionamiento
+
+Las capturas se tomaron con la serie `SF43718` y datos consultados al SIE de
+Banxico:
+
+![Indicadores del dashboard](evidencia/dashboard_banxico.png)
+
+![Visualizaciones del dashboard](evidencia/graficas_banxico.png)
+
 ## Estructura
 
 ```text
@@ -34,6 +43,9 @@ HerramientasVisualizacion/
 ├── .streamlit/
 │   └── secrets.toml
 ├── dashboard_banxico.py
+├── evidencia/
+│   ├── dashboard_banxico.png
+│   └── graficas_banxico.png
 ├── README.md
 └── requirements.txt
 ```
